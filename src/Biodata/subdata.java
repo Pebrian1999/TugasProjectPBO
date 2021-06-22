@@ -42,4 +42,16 @@ public class subdata extends data{
     public void setPekerjaanp(String pekerjaanp) {
         this.pekerjaanp = pekerjaanp;
     }
+
+    //Overridding
+
+    @Override
+    public void tampildata() {
+        super.tampildata();
+    }
+
+    @Override
+    public void tampilnama() {
+        super.tampilnama();
+    }
 }
