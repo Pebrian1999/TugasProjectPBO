@@ -14,7 +14,7 @@ public class subdata extends data{
         System.out.println("Nama: "+namapenerima);
         System.out.println("Jenis Kelamin: "+jeniskelaminp);
         System.out.println("Pekerjaan: "+pekerjaanp);
-        System.out.println("=======================");
+        System.out.println("========================");
     }
 
 
