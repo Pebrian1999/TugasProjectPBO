@@ -34,4 +34,24 @@ package Biodata;
     public void cetakkota(){
         System.out.println("Kota : " +kota);
     }
+
+    //Constructor
+    public data(){
+        System.out.println("Konstruktor");
+        nama = "Nama Kosong";
+        jeniskelamin = "Jenis Kelamin Kosong";
+    }
+
+    public data(String nama,String jeniskelamin,int tinggib,int beratb){
+    this.nama = nama;
+    this.jeniskelamin = jeniskelamin;
+    this.tinggib = tinggib;
+    this.beratb = beratb;
+    }
+
+    public data(String nama,String kota){
+    this.nama =nama;
+    this.kota =kota;
+    }
+
 }
