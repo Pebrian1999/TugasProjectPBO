@@ -57,5 +57,71 @@ package Biodata;
     public data(String nama, int tinggib) {
         this.nama = nama;
         this.tinggib = tinggib;
+    }
+
+    //Getter
+        public String getNama() {
+            return nama;
+        }
+
+        public String getJeniskelamin() {
+            return jeniskelamin;
+        }
+
+        public String getKota() {
+            return kota;
+        }
+
+        public String getNohp() {
+            return nohp;
+        }
+
+        public int getTinggib() {
+            return tinggib;
+        }
+
+        public int getBeratb() {
+            return beratb;
+        }
+
+        public String getStatus() {
+            return status;
+        }
+
+        public String getPekerjaan() {
+            return pekerjaan;
+        }
+
+    //Setter
+        public void setNama(String nama) {
+            this.nama = nama;
+        }
+
+        public void setJeniskelamin(String jeniskelamin) {
+            this.jeniskelamin = jeniskelamin;
+        }
+
+        public void setKota(String kota) {
+            this.kota = kota;
+        }
+
+        public void setNohp(String nohp) {
+            this.nohp = nohp;
+        }
+
+        public void setTinggib(int tinggib) {
+            this.tinggib = tinggib;
+        }
+
+        public void setBeratb(int beratb) {
+            this.beratb = beratb;
+        }
+
+        public void setStatus(String status) {
+            this.status = status;
+        }
+
+        public void setPekerjaan(String pekerjaan) {
+            this.pekerjaan = pekerjaan;
         }
     }
