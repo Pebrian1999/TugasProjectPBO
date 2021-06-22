@@ -49,7 +49,6 @@ public class subdata extends data{
     public void tampildata() {
         super.tampildata();
     }
-
     @Override
     public void tampilnama() {
         super.tampilnama();
