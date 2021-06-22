@@ -17,6 +17,29 @@ public class subdata extends data{
         System.out.println("========================");
     }
 
+    //Getter
+    public String getNamapenerima() {
+        return namapenerima;
+    }
 
+    public String getJeniskelaminp() {
+        return jeniskelaminp;
+    }
 
+    public String getPekerjaanp() {
+        return pekerjaanp;
+    }
+
+    //setter
+    public void setNamapenerima(String namapenerima) {
+        this.namapenerima = namapenerima;
+    }
+
+    public void setJeniskelaminp(String jeniskelaminp) {
+        this.jeniskelaminp = jeniskelaminp;
+    }
+
+    public void setPekerjaanp(String pekerjaanp) {
+        this.pekerjaanp = pekerjaanp;
+    }
 }
