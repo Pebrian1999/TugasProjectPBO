@@ -42,16 +42,20 @@ package Biodata;
         jeniskelamin = "Jenis Kelamin Kosong";
     }
 
-    public data(String nama,String jeniskelamin,int tinggib,int beratb){
-    this.nama = nama;
-    this.jeniskelamin = jeniskelamin;
-    this.tinggib = tinggib;
-    this.beratb = beratb;
+    public data(String nama, String jeniskelamin, int tinggib, int beratb){
+        this.nama = nama;
+        this.jeniskelamin = jeniskelamin;
+        this.tinggib = tinggib;
+        this.beratb = beratb;
     }
 
-    public data(String nama,String kota){
-    this.nama =nama;
-    this.kota =kota;
+    public data(String nama, String kota){
+        this.nama =nama;
+        this.kota =kota;
     }
 
-}
+    public data(String nama, int tinggib) {
+        this.nama = nama;
+        this.tinggib = tinggib;
+        }
+    }

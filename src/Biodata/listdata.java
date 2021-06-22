@@ -18,5 +18,13 @@ public class listdata {
         penerima.jeniskelaminp = "Laki -  Laki";
         penerima.pekerjaanp = "Mahasiswa";
         penerima.tampilinfopenerima();
+
+        //object dari class 1
+        data data1 = new data("Joni", "Laki-laki", 69, 50);
+        data data2 = new data("Jono", "Laki-laki", 70, 52);
+        data data3 = new data("Joni","Solo");
+        data data4 = new data("Jono","Solo");
+        data data5 = new data("Joni",69);
+        data data6 = new data("Jono",70);
     }
 }
